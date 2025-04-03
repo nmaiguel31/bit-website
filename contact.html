@@ -4,46 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Maiguel | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <hr>
-    <nav>
-        <a href="index .html">Home</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <hr>
-    <main>
-        <h1>Contact Page</h1>
+    <header class="header">
+        <a href="index .html"><img src="/assets/favicon.ico" alt="Main logo"></a>
+      </header>
+          <nav class="navbar">
+              <a href="contact.html">Contact</a>
+              <a href="social.html">Social</a>
+          </nav>
+    <div class="contactMe">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-        <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos unde possimus est vel, quo accusamus incidunt sint ab at iure illum eveniet quas eaque maiores velit ipsum quod sit. Quam.
-        Debitis laborum nesciunt accusamus sit, aperiam ipsam magnam earum, veniam asperiores quia quam adipisci iste repellendus dicta voluptates sunt necessitatibus. Maiores repudiandae mollitia, pariatur obcaecati necessitatibus earum modi deserunt laudantium?
-        </p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
 
-        <section  id="Form">
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name">
-                <label for="email">Email</label>
-                <input type="email" id="email">
-                <label for="message">Message</label>
-                <textarea id="message" placeholder="Type here your message"></textarea>
-                <button type="submit">SEND</button>
-            </form>
-        </section>
-    </main>
-    <aside>
-        <a href="https://github.com/nmaiguel31"
-        target="_blank"
-        rel="noopener noreferrer">GitHub</a>
-    </aside>
-    <section>
-        <h4>Social</h4>
-        <li>Instagram</li>
-        <li>Whatsapp</li>
-        <li>LinkedIn</li>
-    </section>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
 
-    <footer>fcontent footer</footer>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </body>
 </html>

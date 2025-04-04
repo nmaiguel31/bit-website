@@ -15,14 +15,12 @@ body {
     color: #000000;
 }
 
-h1 {
+h2 {
     text-align: center;
-    font-size: 40px;
-    
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -35,14 +33,31 @@ p {
 /* Header */
 
 .header {
-        background-color: #faebd7;
-        padding: 10px;
-        text-align: left;
-    }
+    display: flex;
+    background-color: #faebd7;
+    padding: 10px;
+    text-align: left;
+}
 
-    .header img{
+
+.header a {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+    font-size: auto;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header img{
         width: 80px;
-    }
+}
     
 
 /* Navigation Bar */
@@ -71,24 +86,9 @@ p {
 
 /* MAIN PAGE */
 
-.profile-section {
-    margin-bottom: 20px;
-    display: flex; 
-    gap: 10px;
-    justify-content: center;
-}
+/* Body */
 
-.left-column {
-    flex: 1; 
-    min-width: 200px;
-    text-align: justify;
-}
-
-.right-column {
-    flex: 3;
-    text-align: justify;
-}
-
+/* Main Body */
 .bodyInfo {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -98,9 +98,25 @@ p {
     padding: 50px;
 }
 
-.me {
+/* Flex box */
+
+.profile-section {
+    margin-bottom: 20px;
+    display: flex; 
+    gap: 10px;
+    justify-content: center;
+}
+
+.left-column {
+    flex: 1; 
     text-align: justify;
 }
+
+.right-column {
+    flex: 3;
+    text-align: justify;
+}
+
 .infoLabel {
     color: #7a0000;
     font-weight: bold;
@@ -109,9 +125,11 @@ p {
     color: #000000;
 }
 
+/* Cups Images */
+
 .cups img {
     width: 100%;
-    max-width: 280px;
+    max-width: 200px;
 }
 
 /* CONTACT PAGE */
@@ -161,16 +179,10 @@ p {
 
 /* SOCIAL */
 
-.feed-section {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-}
-
 .small-feed {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 500;
     color: #b10202;
 }
 
@@ -178,6 +190,4 @@ p {
     width: 100%;
     max-width: 50px;
     height: auto;
-    border-radius: 10px;
-    flex-shrink: 0;
 }

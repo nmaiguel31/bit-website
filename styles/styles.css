@@ -15,6 +15,23 @@ body {
     color: #000000;
 }
 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+}
+
 /* Header */
 
 .header {
@@ -23,9 +40,10 @@ body {
         text-align: left;
     }
 
-.header img{
-    width: 80px;
-}
+    .header img{
+        width: 80px;
+    }
+    
 
 /* Navigation Bar */
 
@@ -82,12 +100,6 @@ padding-left: 500px;
 padding-right: 500px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-    
-}
-
 .me {
     text-align: justify;
 }
@@ -99,8 +111,13 @@ h1 {
     color: #000000;
 }
 
+.cups img {
+    width: 100%;
+    max-width: 280px;
+}
 
 /* CONTACT PAGE */
+
 /* Contact me background */
 
 .contactMe {
@@ -159,27 +176,10 @@ h1 {
     color: #b10202;
 }
 
-h3 {
-    text-align: center;
-}
-
-p {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-
-}
-
 .profile-section img {
     width: 100%;
     max-width: 50px;
     height: auto;
     border-radius: 10px;
     flex-shrink: 0;
-}
-
-
-.cups img {
-    width: 100%;
-    max-width: 280px;
 }

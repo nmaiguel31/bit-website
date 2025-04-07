@@ -58,8 +58,17 @@ p {
 .header img{
         width: 80px;
 }
-    
 
+.me img{
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* optional, for consistent size */
+    height: 400px; /* optional, only if the image isn't square */
+    object-fit: cover; /* keeps image nicely cropped if not square */
+}
 /* Navigation Bar */
 
 .navbar {
